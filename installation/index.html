@@ -303,6 +303,26 @@
     Requisitos del curso
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#imagenes" title="Imágenes" class="md-nav__link">
+    Imágenes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#herramientas" title="Herramientas" class="md-nav__link">
+    Herramientas
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
       
@@ -361,6 +381,26 @@
   <a href="#requisitos-del-curso" title="Requisitos del curso" class="md-nav__link">
     Requisitos del curso
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#imagenes" title="Imágenes" class="md-nav__link">
+    Imágenes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#herramientas" title="Herramientas" class="md-nav__link">
+    Herramientas
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -478,6 +518,7 @@ For more examples and ideas, visit:
 </div>
 <p>Para que los nuevos permisos surtan efecto, debes cerrar y volver a abrir la sesión. Para problemas relacionados con los permisos visitad <a href="https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user">la página del manual oficial</a>.</p>
 <h2 id="requisitos-del-curso">Requisitos del curso<a class="headerlink" href="#requisitos-del-curso" title="Permanent link">&para;</a></h2>
+<h3 id="imagenes">Imágenes<a class="headerlink" href="#imagenes" title="Permanent link">&para;</a></h3>
 <p>Es necesario traer ya instaladas ciertas imágenes de contenedores. Ejecuta los siguientes comandos en tu equipo (si te da error de permisos asegúrate que has hecho el apartado anterior y abierto y cerrado la sesión).</p>
 <div class="admonition example">
 <p class="admonition-title">Example</p>
@@ -491,6 +532,17 @@ For more examples and ideas, visit:
 <p class="admonition-title">Example</p>
 <p>Instalar <em>MariaDB</em>:</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>docker pull mariadb:latest
+</pre></div>
+</td></tr></table>
+
+</div>
+<h3 id="herramientas">Herramientas<a class="headerlink" href="#herramientas" title="Permanent link">&para;</a></h3>
+<p>También es necesario traer una herramienta llamada <code>Docker Compose</code>. Puedes instalarla con las instrucciones que hay en la página de <a href="https://docs.docker.com/compose/install/">Instalación de Docker Compose</a>.</p>
+<p>Sin embargo, si usas <em>Ubuntu</em> o <em>Debian</em> puedes instalarlo de forma más fácil con <em>apt</em>:</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>Instalación de <em>Docker Compose</em>:</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>sudo apt install docker-compose
 </pre></div>
 </td></tr></table>
 
